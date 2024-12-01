@@ -3,8 +3,8 @@
 
 class FuncA {
 public:
-    FuncA() {}
-    double calculate(); // Повертає значення 0
+    // Функція для обчислення тригонометричної функції
+    double calculate(int n) const; // n - кількість елементів ряду
 };
 
 #endif
