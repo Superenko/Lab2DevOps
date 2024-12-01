@@ -3,7 +3,8 @@
 
 int main() {
     FuncA func;
-    std::cout << "FuncA result: " << func.calculate() << std::endl;
+    int n = 5;
+    std::cout << "FuncA result: " << func.calculate(n) << std::endl;
     return 0;
 }
 
